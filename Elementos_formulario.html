@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+    </head>
+<body>
+    <h2>&#x1f4a9 Ejemplo de elementos de formulario &#x1f47d &#x1f43c</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Obligatory fields</legend>
+        <!--Campo de texto-->
+        <p>
+        <label for="id_name">Name:</label>
+        <input type="text" id="id_name" name="nombre" required>
+        </p>
+         <!--Campo de password-->
+        <p>
+            <label>Password:
+            <input type="password" name="password" required>
+            </label>
+        </p>
+        <!--Campo de email-->
+        <p>
+            <label for="correo">Email:</label>
+            <input type="email" id="correo" name="email" required>
+        </p>
+        </fieldset>
+        <!--Campo de number-->
+        <p>
+        <label for="numero">Age:</label>
+        <input type="number" id="numero" name="numero" min="1" max="100">
+        </p>
+        <!--Campo de fecha-->
+        <p>
+            <label for="fecha">Date of Birth:</label>
+            <input type="date" id="fecha" name="fecha">
+        </p>
+        <!--Campo de hora-->
+        <p>
+            <label for="cita">Date:</label>
+            <input type="time" name="hora" id="cita">
+        </p>
+        <!--Campo de select-->
+        <p>
+            <label for="id_pais">Country:</label>
+            <select id="id_pais" name="pais">
+                <option value="">Seleccione...</option>
+                <option value="MX">Mexico</option>
+                <option value="CO">Colombia</option>
+                <option value="BR">Brasil</option>
+            </select>
+        </p>
+        <!--Campo de radio-->
+        <p>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="genero" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="genero" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="non-binary" name="genero" value="non-binary">
+            <label for="non-binary">Non-Binary</label>
+        </p>
+        <!--casillas de verificacion-->
+        <p>
+            <label>Interests:</label>
+            <input type="checkbox" name="intereses" id="deportes" value="deporte">
+            <label for="deportes">Sports</label>
+            <input type="checkbox" name="intereses" id="artes" value="artes">
+            <label for="artes">Arts</label>
+            <input type="checkbox" id="lectura" name="intereses" value="lectura">
+            <label for="lectura">Lecture</label>
+        </p>
+        <!--campo de archivo-->
+        <p>
+        <label for="archivo">Upload file:</label>
+        <input type="file" id="archivo" name="file">
+        </p>
+        <!--Area de texto-->
+        <p>
+        <label for="comentarios">Coments: <br></label>
+        <textarea name="comenta" id="comentarios" rows="5" cols="50">This text looks like...</textarea>
+        </p>
+        <!--botones-->
+        <p>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+</html>
