@@ -1,0 +1,22 @@
+h1 {
+    border-radius: 50%;
+    background-color: #bd9e66;
+    color: purple;
+    margin: 20px;
+    border-width: 20px;
+    border-color: blue;
+    border-style: groove;
+    padding: 20px;
+    text-align: center;
+    /* fuentes por default: serif, sans-serif, cursive,fantasy y monospace*/
+    font-family: "Roboto Serif", serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "GRAD" 0;
+}
+img {
+    width: 400px;
+    border-radius: 50%;
+}
