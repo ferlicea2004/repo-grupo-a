@@ -1,0 +1,111 @@
+#main-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursive, sans-serif;
+    color: hotpink;
+    font-size: 50px;
+    text-shadow: 2px 3px 5px #96368d;
+}
+body{
+    background: linear-gradient(20deg, #6d2bb4 50%, #e2d3eb 100%);
+    margin: 20px 200px 20px 200px;
+}
+.imagen-main {
+    justify-content: center;
+    display: flex;
+}
+.imagen-main img {
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px #e2d3eb;
+    padding: 0px;
+    border-style: none;
+}
+.intro {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    background: linear-gradient(0deg, darkblue 0%, darkmagenta 100%);
+    color: white;
+    border-radius: 27px;
+    box-shadow: 5px 5px 10px 1px #ffffff;
+}
+.tipos {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    background: linear-gradient(0deg, darkcyan 0%, darkblue 100%);
+    color: white;
+    border-radius: 27px;
+    box-shadow: 5px 5px 10px 1px #ffffff;
+}
+#listado {
+    text-align: left;
+}
+.ventajas {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    background: linear-gradient(0deg, darkgreen 0%, darkcyan 100%);
+    color: white;
+    border-radius: 27px;
+    box-shadow: 5px 5px 10px 1px #ffffff;
+}
+.desventajas {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    background: linear-gradient(0deg, rgb(117, 123, 10) 0%, darkgreen 100%);
+    color: white;
+    border-radius: 27px;
+    box-shadow: 5px 5px 10px 1px #ffffff;
+}
+.imagenes {
+    background: linear-gradient(0deg,  rgb(122, 42, 15)0%, rgb(117, 123, 10) 100%);
+    margin: 30px;
+    padding: 20px;
+    color: white;
+    border-radius: 27px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 1px #ffffff;
+}
+img{
+    border-radius: 0px;
+    padding: 0px;
+    border-width: 5px;
+    border: 10px outset #ffffff;
+}
+.adopcion {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    background: linear-gradient(0deg, rgb(95, 10, 123) 0%, rgb(122, 42, 15) 100%);
+    color: white;
+    border-radius: 27px;
+    box-shadow: 5px 5px 10px 1px #ffffff;
+}
+.tabla {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    background: linear-gradient(0deg, rgb(17, 55, 94) 0%, rgb(95, 10, 123) 100%);
+    color: white;
+    border-radius: 27px;
+    box-shadow: 5px 5px 10px 1px #ffffff;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #a7e02a;
+    padding: 1%;
+}
+th {
+    background-color: lightblue;
+    color: black;
+}
+tr:hover{
+    background-color: lightslategray;
+    color: black;
+}
