@@ -42,4 +42,4 @@ function verificaclickcelda(event){
     }
 }
 
-cells.forEach(cell => cell.addEventListener('click', verificaclickcelda));
+celdas.forEach(cell => cell.addEventListener('click', verificaclickcelda));
