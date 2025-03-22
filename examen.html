@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+</head>
+<body>
+    <img src="imagenes/Logo-uni.png" alt="Logotipo de la Universidad Cristóbal Colón" width="400px">
+    <h1>Universidad Cristóbal Colón</h1>
+    <h2>Evaluación Parcial</h2>
+    <h3>Alumna: María Fernanda Hernández Licea</h3>
+    <ol reversed>
+        <li>Aún estoy aqui</li>
+        <li>La chica de la aguja</li>
+        <li>Emilia Pérez</li>
+        <li>La semilla de la higuera sagrada</li>
+        <li>Flow</li>
+    </ol>
+    <table border="1" width="700px">
+        <thead>
+            <tr>
+                <th rowspan="2">Rango de edades</th>
+                <th colspan="2">Mujeres</th>
+                <th colspan="2">Hombres</th>
+                <th colspan="2">Promedio General</th>
+            </tr>
+            <tr>
+                <th>Estatura</th>
+                <th>Peso</th>
+                <th>Estatura</th>    
+                <th>Peso</th>
+                <th>Estatura</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>5-10</td>
+                <td>0.9</td>
+                <td>35</td>
+                <td>1.1</td>
+                <td>38</td>
+                <td>1.0</td>
+                <td>36.5</td>
+            </tr>
+            <tr>
+                <td>11-15</td>
+                <td>0.98</td>
+                <td>40</td>
+                <td>1.6</td>
+                <td>65</td>
+                <td>1.3</td>
+                <td>52.5</td>
+            </tr>
+            <tr>
+                <td>16-20</td>
+                <td>1.50</td>
+                <td>45</td>
+                <td>1.72</td>
+                <td>70</td>
+                <td>1.61</td>
+                <td>57.5</td>
+            </tr>
+            <tr>
+                <td>21-30</td>
+                <td>1.60</td>
+                <td>50</td>
+                <td>1.7</td>
+                <td>75</td>
+                <td>1.65</td>
+                <td>62.5</td>
+            </tr>
+            <tr>
+                <td>31-35</td>
+                <td>1.67</td>
+                <td>64</td>
+                <td>1.73</td>
+                <td>78</td>
+                <td>1.7</td>
+                <td>71</td>
+            </tr>
+            <tr>
+                <td>35-40</td>
+                <td>1.62</td>
+                <td>60</td>
+                <td>1.71</td>
+                <td>80</td>
+                <td>1.69</td>
+                <td>70</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Formulario</legend>
+        <p>
+            <label for="id_nombre">Nombre Completo:</label>
+            <input type="text" id="id_nombre" name="nombre" required>
+        </p>
+        <p>
+            <label for="id_correo">Correo electrónico:</label>
+            <input type="email" id="id_correo" name="email" required>
+        </p>
+        <p>
+            <label for="id_edad">Edad:</label>
+            <input type="number" id="id_edad" name="numero" required>
+        </p>
+        <p>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha">
+        </p>
+        <p>
+            <label>Estado Civil:</label>
+            <input type="radio" id="soltero" name="estado" value="soltero">
+            <label for="soltero">Soltero</label>
+            <input type="radio" id="casado" name="estado" value="casado">
+            <label for="casado">Casado</label>
+        </p>
+        <p>
+            <label>Intereses:</label>
+            <input type="checkbox" name="intereses" id="deportes" value="deporte">
+            <label for="deportes">Deportes</label>
+            <input type="checkbox" name="intereses" id="artes" value="artes">
+            <label for="artes">Arte</label>
+            <input type="checkbox" id="lectura" name="intereses" value="lectura">
+            <label for="lectura">Lectura</label>
+        </p>
+        <p>
+            <label for="id_pais">Lugar de residencia:</label>
+            <select id="id_pais" name="pais">
+                <option value="">Seleccione...</option>
+                <option value="MX">Mexico</option>
+                <option value="CO">Colombia</option>
+                <option value="BR">Brasil</option>
+            </select>
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>

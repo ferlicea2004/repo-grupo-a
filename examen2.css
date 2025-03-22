@@ -1,0 +1,139 @@
+h1, h2, h3 {
+    color: blue;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+
+.imagenes {
+background-color: lightblue;
+margin: 20px;
+padding: 25px;
+border-radius: 27px;
+align-items: center;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border: 10px outset purple;
+    border-radius: 20px;
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    flex-direction: column;
+    border: 2px outset black;
+
+}
+.contenido {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+.texto {
+    flex: 1;
+    padding-right: 15px;
+    border-right: 5px outset black;
+    padding: 30px;
+}
+.texto h4 {
+    font-size: 20px;
+}
+.texto h5 {
+    margin: 5px 0 0;
+    font-size: 15px;
+}
+.descripcion {
+    background-color: darkgreen;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 1%;
+    text-align: center;
+}
+th {
+    background-color: blue;
+    color: black;
+}
+.re{
+    background-color: #803039;
+    color: white;
+}
+td {
+    background-color: beige;
+}
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 300px; 
+    background-color: #f0f0f0; 
+    border: 2px solid #000; 
+}
+
+.bandera {
+    width: 100px; 
+    height: 60px; 
+    display: flex;
+    margin: 10px; 
+    border: 1px solid #000; 
+}
+
+.francia div {
+    width: 33.33%;
+    height: 100%;
+}
+
+.francia .azul { background-color: #0055A4; }
+.francia .blanco { background-color: #FFFFFF; }
+.francia .rojo { background-color: #EF4135; }
+
+.alemania {
+    flex-direction: column;
+}
+
+.alemania div {
+    width: 100%;
+    height: 33.33%;
+}
+
+.alemania .negro { background-color: #000000; }
+.alemania .rojo { background-color: #DD0000; }
+.alemania .amarillo { background-color: #FFCC00; }
+
+
+.italia div {
+    width: 33.33%;
+    height: 100%;
+}
+
+.italia .verde { background-color: #008C45; }
+.italia .blanco { background-color: #FFFFFF; }
+.italia .rojo { background-color: #CD212A; }
