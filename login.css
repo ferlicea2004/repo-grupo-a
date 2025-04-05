@@ -1,0 +1,91 @@
+/* login.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: rgba(255, 223, 186, 0.9); /* Color arena con transparencia */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+    backdrop-filter: blur(5px);
+    
+}
+
+h1 {
+    color: #ff9800; /* Color del sol */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Ajuste para centrar los elementos del formulario */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ffcc80;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    outline: none;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #ff9800;
+}
+
+/* Botón estilizado */
+.submit-btn {
+    background: linear-gradient(to right, #ff9800, #ff5722);
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(to right, #ff5722, #e65100);
+}
+
+/* Efecto de olas en el fondo */
+body::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffcc80" fill-opacity="1" d="M0,64L80,85.3C160,107,320,149,480,138.7C640,128,800,64,960,48C1120,32,1280,64,1360,80L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>');
+    background-size: cover;
+}
+
